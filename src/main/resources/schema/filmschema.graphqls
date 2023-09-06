@@ -1,0 +1,9 @@
+type Query {
+    films(titleFilter: String) :[Film]
+}
+
+type Film {
+    title: String
+    releaseYear: Int
+    directedBy: String
+}
