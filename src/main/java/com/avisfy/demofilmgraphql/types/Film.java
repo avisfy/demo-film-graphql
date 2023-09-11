@@ -1,4 +1,4 @@
-package com.avisfy.trygraphql.model;
+package com.avisfy.demofilmgraphql.types;
 
 import lombok.Data;
 
@@ -8,5 +8,5 @@ public class Film {
 
     private final Integer releaseYear;
 
-    private final String directedBy;
+    private final Integer directedById;
 }

@@ -5,5 +5,11 @@ type Query {
 type Film {
     title: String
     releaseYear: Int
-    directedBy: String
+    directedById: Int
+    directedBy: Director
+}
+
+type Director {
+    id: Int
+    name: String
 }
