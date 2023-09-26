@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.11-SNAPSHOT</version>
+        <version>3.0.11</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.avisfy</groupId>
@@ -55,11 +55,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.28</version>
         </dependency>
-        <dependency>
-            <groupId>com.netflix.graphql.dgs.codegen</groupId>
-            <artifactId>graphql-dgs-codegen-client-core</artifactId>
-            <version>5.1.17</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.netflix.graphql.dgs.codegen</groupId>-->
+<!--            <artifactId>graphql-dgs-codegen-client-core</artifactId>-->
+<!--            <version>5.1.17</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
